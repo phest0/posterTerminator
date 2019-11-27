@@ -1,0 +1,149 @@
+/* Chargement des polices */
+@font-face {
+  font-family: 'franklyspokentwo';
+  src: url("../fonts/franklyspokentwo.ttf");
+}
+
+@font-face {
+  font-family: 'NunitoSans-Light';
+  src: url("../fonts/NunitoSans-Light.ttf");
+}
+
+@font-face {
+  font-family: 'TitilliumWeb-Bold';
+  src: url("../fonts/TitilliumWeb-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'FrancoisOne-Regular';
+  src: url("../fonts/FrancoisOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'WorkSans-ExtraBold';
+  src: url("../fonts/WorkSans-ExtraBold.ttf");
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  color: #FCFCFC;
+}
+
+/* display flex pour aligner les deux photos */
+section {
+  display: flex;
+}
+
+article {
+  background-color: black;
+  margin: 10px;
+  position: relative;
+}
+
+/* ajout de filtre contrast sur photo sans texte pour se rapprocher de l'original */
+.contrast {
+  filter: contrast(1.5);
+}
+
+/* placement du H1 */
+.absolutPosition1 {
+  position: absolute;
+  top: -60px;
+  left: 168px;
+}
+
+/* placement du texte d'accroche */
+.absolutPosition2 {
+  position: absolute;
+  top: 128px;
+  left: 656px;
+}
+
+/* placement : grand prix */
+.absolutPosition3 {
+  position: absolute;
+  top: 908px;
+  left: 300px;
+}
+
+/* placement : Festival d'avoriaz */
+.absolutPosition4 {
+  position: absolute;
+  top: 990px;
+  left: 288px;
+}
+
+/* placement : 1985 */
+.absolutPosition5 {
+  position: absolute;
+  top: 1026px;
+  left: 410px;
+}
+
+/* placement Terminator */
+.absolutPosition6 {
+  position: absolute;
+  top: 1016px;
+  left: 154px;
+}
+
+/* placement : liste des acteurs, réalisateurs */
+.absolutPosition7 {
+  position: absolute;
+  top: 1262px;
+  left: 124px;
+}
+
+/* personnalisation du H1 */
+.fontP1 {
+  font-family: franklyspokentwo;
+  font-size: 58px;
+}
+
+/* personnalisation de la phrase d'accroche */
+.fontP2 {
+  font-family: FrancoisOne-Regular;
+  font-size: 20px;
+  color: #F9E262;
+}
+
+/* personnalisation du grand prix */
+.fontP3 {
+  font-family: WorkSans-ExtraBold;
+  font-size: 47px;
+  color: #F9E90D;
+  border-bottom: solid 3px #F9E90D;
+}
+
+/* personnalisation de : festival d'avoriaz 1985*/
+.fontP4 {
+  font-family: WorkSans-ExtraBold;
+  font-size: 31px;
+  color: #F9E90D;
+}
+
+/* Personnalisation du titre TERMONATOR*/
+.fontP5 {
+  font-family: TitilliumWeb-Bold;
+  font-size: 115px;
+  letter-spacing: -8px;
+}
+
+/* personnalisation : listes acteurs, réalisateurs */
+.fontP6 {
+  font-size: 19px;
+  font-family: "NunitoSans-Light";
+  color: #ECEBE6;
+}
+
+/* pour centrer la liste acteurs, réalisateurs */
+.textalign {
+  text-align: center;
+}
+
+/* pour réduire les espacements entre les balises <br> de la liste acteurs, réalisateurs */
+.reduce {
+  line-height: 24px;
+  margin: 0px;
+}
